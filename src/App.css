@@ -1,0 +1,181 @@
+/* Body styling */
+body {
+  background-image: url("./assets/Backg.avif");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main game container */
+.game-container {
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.6); /* Slight background for contrast */
+}
+
+/* Game status display */
+.status {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Board container */
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Square button */
+.square {
+  background: lightgray;
+  border: 3px solid black;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 100px;
+  color: black;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  text-align: center;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.square:hover {
+  background-color: #ddd;
+}
+
+/* Row container for squares */
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Move history (game info) styling */
+.game-info {
+  margin-top: 20px;
+  color: lightblue;
+}
+
+.game-info ol {
+  padding: 0;
+  list-style: none;
+}
+
+.game-info button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background: #333;
+  color: white;
+  border: 2px solid #555;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.game-info button:hover {
+  background: lightblue;
+  color: black;
+}
+
+/* Game title */
+.text {
+  color: lightblue;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+  background-image : url("./assets/Backg.avif"); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-container {
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.status {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.square {
+  background: lightgray;
+  border: 3px solid black;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 100px;
+  color: black;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  text-align: center;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.square:hover {
+  background-color: #ddd;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+
+.text{
+  color :lightblue;
+  text-align : center;
+  font-size: 60px;
+  
+} */
